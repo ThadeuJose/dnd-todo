@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-right: 8px;
@@ -19,8 +19,7 @@ export const Title = styled.h3`
 export const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
-  background-color: ${(props) =>
-    props.isDraggingOver ? "skyblue" : "inherit"};
+  background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'inherit')};
   flex-grow: 1;
   min-height: 100px;
 `;
